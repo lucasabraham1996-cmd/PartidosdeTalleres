@@ -1,4 +1,8 @@
-streamlit
-pandas
-openpyxl
-xlsxwriter
+{
+    "builds": [
+        {
+            "src": "app.py",
+            "use": "vercel-streamlit"
+        }
+    ]
+}
